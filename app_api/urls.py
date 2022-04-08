@@ -4,12 +4,11 @@ from . import views
 
 app_name = 'api'
 urlpatterns = [
-    path('helloworld/', views.hello_world),
     path('upload/', views.upload_file),
-    path('month/', views.month),    
+    path('pasos/', views.pasos),    
 ]
 
 
 
 
- #   path('', views.IndexView.as_view(), name='index'),
+
